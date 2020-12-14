@@ -1,0 +1,10 @@
+package Test;
+
+public class OccurenceofString {
+
+	public static void main(String[] args) {
+
+		String str ="Programming";
+	}
+
+}

@@ -1,0 +1,46 @@
+package Test;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.By;
+
+public class NameLocator extends DriverSetup
+{
+		String fName;  
+		static WebDriver driver;
+		
+		public NameLocator(WebDriver driver)
+		{
+			this.driver = driver;
+		}
+		
+	
+		public WebDriver setupDriver(WebDriver driver)
+		{
+		    /*Invoke the getWebDriver method from the DriverSetup File*/
+		    getWebDriver();
+		    return driver;
+		}
+		public WebDriver getNameLocator(WebDriver driver)
+		{
+	       /*Identify the Firstname
+		     Get the placeholder value
+	         Store the placeholder value in the static variable fName.*/
+	            WebElement search = driver.findElement(By.name("fname"));
+	            fName = search.getAttribute("placeholder");
+	            System.out.println(fName);
+			    //return fName;
+				return driver;
+		}
+		
+		public static void main(String[] args)
+		{
+		    NameLocator launch = new NameLocator();
+		    launch.setupDriver(driver);
+		    launch.getNameLocator(driver);
+		    //System.out.println(fName);
+		}
+
+	}
+
+

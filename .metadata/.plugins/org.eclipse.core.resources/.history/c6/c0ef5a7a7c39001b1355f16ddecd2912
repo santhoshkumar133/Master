@@ -1,0 +1,26 @@
+package Test;
+
+public class Duplicatecharacterinstring {
+
+	public static void main(String[] args) {
+		  String s="a e e  o u";
+		  int cnt=0;
+		  char[] l=s.toCharArray();
+		  for(int i=0;i<s.length();i++)
+		  {
+			  for(int j=i+1;j<s.length();j++)
+			  {
+				  if(l[i]==l[j]) {
+					  
+					  System.out.println(l[j]);
+					  cnt++;
+					  break;
+				  }
+				   
+			  }
+		  }
+		  
+
+	}
+
+}

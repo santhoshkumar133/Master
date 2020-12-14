@@ -1,0 +1,42 @@
+package Test;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Scanner;
+import java.util.Set;
+
+public class Test {
+	
+
+		public static void main(String[] args) {
+			int[] a= {1,2,3,4,6};
+			int Total_Sum=6;
+			int num=0;
+			int Expected_sum;
+			if(Total_Sum%2==0)
+			{
+				int Expected_sum= Total_Sum * (Total_Sum/2);
+			}
+			else
+			{
+				int Expected_sum=Total_Sum*((Total_Sum+1)/2);
+				
+			}
+		for(int i=0;i<a.length;i++)
+		{
+			num+=i;
+		}
+		
+		int MissingNumber=Expected_sum-num;
+		
+			System.out.println(Expected_sum-num);
+		
+	}
+
+}
+	    
+

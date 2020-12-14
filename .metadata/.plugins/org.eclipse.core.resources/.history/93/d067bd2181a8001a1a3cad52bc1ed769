@@ -1,0 +1,13 @@
+
+public class Test {
+	public static void main(String args[])
+	{
+		String txt ="Referral 'N-JUN2020-R001573' created successfully";
+		int size1=txt.indexOf("'");
+		int size2=txt.indexOf("'");
+		//String get = txt.substring(10,27);
+		String get = txt.substring(size1 + 1,size2 + 1);
+		System.out.println(get);
+	}
+
+}

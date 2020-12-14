@@ -1,0 +1,10 @@
+
+public class Test {
+	public static void main(String args[])
+	{
+		String txt ="Referral 'N-JUN2020-R001573' created successfully";
+		String get = txt.substring(10,26);
+		System.out.println(get);
+	}
+
+}

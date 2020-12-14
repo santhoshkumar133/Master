@@ -1,0 +1,27 @@
+package Test;
+
+public class Reversestring {
+	public static void main(String[] args) {
+		
+//		String str="Santhosh";
+//		char ch[]=str.toCharArray();
+//		for(int i=ch.length-1;i>=0;i--)
+//		{
+//			System.out.print(ch[i]);
+//		}
+//	}
+	
+		//input  - a e e  o u 
+		//o/p -  a o u 
+		
+		//input - "i am indian"
+		//o/p - indian am i 
+		//o/p - naidni am i 
+		//o/p - Naidni am i 
+		//o/p - Naidni_am_i (Use hashmap , iterator , For each)
+	
+	StringBuffer b= new StringBuffer("Santhosh");
+	System.out.print(b.reverse());
+	}
+	
+}

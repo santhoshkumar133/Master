@@ -1,0 +1,32 @@
+package Test;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Scanner;
+import java.util.Set;
+
+public class Test {
+	
+
+		public static void main(String[] args) {
+			String str="santhosh";
+			Set<Character> set = new HashSet<>();
+			StringBuilder sb = new StringBuilder();
+			for(int i=1;i<str.length();i++)
+			{
+				set.add(str.charAt(i));
+			}
+			for(Character c:set)
+			{
+				sb.append(c);
+			}
+			System.out.println(sb);
+	}
+
+}
+	    
+

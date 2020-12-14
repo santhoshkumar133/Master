@@ -1,0 +1,54 @@
+package Test;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Scanner;
+import java.util.Set;
+
+import org.apache.poi.hssf.record.formula.functions.Char;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
+
+public class Test {
+	
+
+		public static void main(String[] args) {
+		Set<String> set = new LinkedHashSet<>();
+		set.add("a");
+		set.add("b");
+		set.add("a");
+
+		for(String S : set)
+		{
+			System.out.println(s);
+		}
+}
+}
+	    
+
+//Select sec = driver.findelement(By.xpath(xpathExpression));
+//List<WebElement> list = sec.getOptions();
+//Set<String> set = new LinkedHashSet<>();
+//StringBuilder sb = new StringBuilder<>();
+//for(int i=0;i<list.length();i++)
+//{
+//	for(String c : i.gettext())
+//	{
+//		 set.add(c);
+//	}
+//}
+//for(Character c : set)
+//{
+//	sb.append(c)
+//}
+//string name = sb ;
+// 
+ 
+

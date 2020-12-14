@@ -1,0 +1,43 @@
+package Test;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Scanner;
+import java.util.Set;
+
+public class Test {
+	
+
+		public static void main(String[] args) {
+			String str= "santhosh2227";
+			String number="";
+			String alpha = "";
+			
+		for(int i=0;i<str.length();i++)
+		{
+			char ch = str.charAt(i);
+			
+			if(ch=='a'&&ch=='z')
+			{
+				alpha=alpha+str.charAt(i);
+			}
+			
+			else if(ch=='1'&&ch=='0')
+			{
+				number = number +str.charAt(i);
+			}
+		}
+		
+		
+		System.out.println("The given alpha is"+" :"+alpha);
+		System.out.println("The given Numberis is"+" :"+number);
+			
+	}
+
+}
+	    
+

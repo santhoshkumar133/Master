@@ -1,0 +1,11 @@
+package pojo;
+
+public class Test {
+
+	public static void main(String[] args) {
+       String str = "ij am santhosh";
+       String split[]=str.split(" ");
+       
+	}
+
+}

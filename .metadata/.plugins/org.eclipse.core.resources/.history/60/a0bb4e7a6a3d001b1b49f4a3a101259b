@@ -1,0 +1,40 @@
+package Test;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Scanner;
+import java.util.Set;
+
+import org.apache.poi.hssf.record.formula.functions.Char;
+
+public class Test {
+	
+
+		public static void main(String[] args) {
+		ArrayList<String> list = new ArrayList<>();
+		Set<String> set = new LinkedHashSet<>();
+		list.add("a");
+		list.add("b");
+		list.add("a");
+		for(int i=0;i<list.size();i++)
+		{
+			for(String c : list)
+			{
+				set.add(c);
+			}
+		}
+	System.out.println(set);
+	for(int i=0;i<set.size();i++)
+	{
+		System.out.println(i);
+	}
+		
+}
+}
+	    
+

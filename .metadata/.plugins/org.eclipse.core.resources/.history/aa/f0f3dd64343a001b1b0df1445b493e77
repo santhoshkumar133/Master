@@ -1,0 +1,25 @@
+package Test;
+
+public class Reversestring {
+	public static void main(String[] args) 
+	{
+	
+	String str= "malayalam";
+	stringbuilder bf = new stringbuilder();
+	char[] ch= str.tochararray();
+	for(int i=ch.lenght()-1;i>=0;i--)
+
+	{
+	system.out.print(ch[i]);
+	string Acutalvalue = bf.appen(ch[i])
+	if(str.equalignorecase("Actualvalue"))
+	{
+	system.out.println("The given text is palindrome")
+
+	}
+
+	else
+	{
+	system.out.printlen("The given test is not palindrome")
+	}
+}
